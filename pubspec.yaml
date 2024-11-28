@@ -1,0 +1,26 @@
+name: mobileappproject
+description: A simple budget tracking application
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  fl_chart: 0.36.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat/Montserrat-VariableFont_wght.ttf
+        - asset: fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf
